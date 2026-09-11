@@ -1,0 +1,44 @@
+# --- Secrets / local config ---
+config/database.php
+config/*.local.php
+.env
+.env.*
+!.env.example
+
+# --- Uploaded / private files ---
+uploads/*
+!uploads/.htaccess
+
+# --- Logs & temp ---
+*.log
+logs/
+tmp/
+temp/
+*.cache
+
+# --- Local debug leftovers ---
+docs/_capture.php
+
+# --- OS ---
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# --- Editors / IDE ---
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# --- Composer / node (if added later) ---
+/vendor/
+/node_modules/
+package-lock.json
+composer.lock
+
+# --- Backups ---
+*.bak
+*.old
+*.sql.gz
+*.zip

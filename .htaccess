@@ -1,0 +1,6 @@
+# Visitor Management System ? Apache
+Options -Indexes
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+</IfModule>
